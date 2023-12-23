@@ -1,0 +1,30 @@
+.header {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.header__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__row__nav {
+
+    ul {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        column-gap: 46px;
+
+        font-size: 17px;
+        font-weight: 500;
+    }
+}
+
+.button--nav {
+    height: 50px;
+    padding: 12px 27px;
+
+    font-size: 22px;
+    font-weight: 600;
+}

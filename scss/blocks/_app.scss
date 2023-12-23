@@ -1,0 +1,41 @@
+.app {
+}
+
+.app__row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+
+}
+.app__row__info {
+
+    h1 {
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 108%;
+
+        margin-bottom: 27px;
+    }
+
+    p {
+        max-width: 550px;
+
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 116%;
+        color: $colorSecondaryDark;
+
+        margin-bottom: 62px;
+    }
+    
+    .app__row__buttons {
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+    }
+
+    .button--download {
+        height: 66px;
+        padding: 12px 32px;
+    }
+}

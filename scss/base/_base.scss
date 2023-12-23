@@ -1,0 +1,61 @@
+body {
+    font-family: $font-main;
+    color: $colorDark;
+}
+
+a {
+    transition: color 0.2s linear;
+    
+    &:hover {
+        color: $colorAccent;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1360px;
+}
+
+.none {
+    display: none !important;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+    padding: 10px 15px;
+    height: 30px;
+
+    border-radius: 5px;
+    background: $colorDark;
+
+    font-size: 16px;
+    color: #fff;
+
+    transition: background-color 0.2s linear;
+}
+
+.button:hover {
+    background-color: $colorAccent;
+}
+
+.main {
+    background-color: $colorBackground;
+    padding: 54px 0 100px;
+}
+
+.titleH2 { 
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 50px;
+    color: $colorDark;
+
+    span {
+        color: $colorAccent;
+    }
+}

@@ -1,0 +1,51 @@
+.form {
+    margin-top: 86px;
+}
+
+.container--form {
+    background-color: $colorAccent;
+    padding: 50px 72px;
+    border-radius: 10px;
+}
+
+.form__row {
+    display: flex;
+    align-items: center;
+
+
+    label {
+        margin-right: auto;
+        width: 246px;
+
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 113%;
+        color: $colorWhite;
+    }
+
+    input {
+        margin-right: 11px;
+        width: 500px;
+        height: 67px;
+
+        padding: 0 20px;
+
+        background-color: $colorWhite;
+        border-radius: 4px;
+    }
+
+    .button--form { 
+        height: 67px;
+
+        font-size: 22px;
+        font-weight: 800;
+
+        transition: transform 0.2s linear, color 0.2s linear;
+
+        &:hover {
+            background-color: $colorDark;
+            color: $colorAccent;
+            transform: scale(1.03);
+        }
+    }
+}

@@ -1,0 +1,22 @@
+/* BASE */
+
+@import './base/animations';
+@import './base/mixins';
+@import './base/reset';
+@import './base/vars';
+@import './base/base';
+
+/* BASE */
+
+/* BLOCK */
+
+@import './blocks/header';
+
+@import './blocks/app';
+@import './blocks/form';
+@import './blocks/benefits';
+@import './blocks/conditions';
+
+@import './blocks/footer';
+
+/* BLOCK */
